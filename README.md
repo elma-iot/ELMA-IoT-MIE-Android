@@ -6,7 +6,7 @@
 
 MIE is being adapted from Windows to Android for subsea wellhead hardware and consumables tracking. The Android interface is designed for portrait phones, rotating screens, foldables and tablets, with offline project work at its center.
 
-**Status: initial private review, version 0.1.0.** This is not yet the full Windows application or a Google Play release. Android APKs and source are held in the organization's private repository; this public repository distributes information and optional data packs.
+**Status: private review, version 0.2.0.** This is not yet the full Windows application or a Google Play release. Android APKs and source are held in the organization's private repository; this public repository distributes information and optional data packs.
 
 ## Equipment through its lifecycle
 
@@ -23,7 +23,9 @@ The initial review implements receiving and installation checks, overdue arrival
 
 ## Optional offline content
 
-Open **Menu → Packs** inside the application to download the combined language pack or user guide and walkthrough. Installed content is then available offline. Download progress is displayed in the app; interrupted or invalid downloads do not become installed packs.
+Selecting a language in **Settings** automatically downloads the combined language pack and applies the choice after validation. Opening the guide or a tutorial installs the learning pack when needed. **Menu → Packs** also lists available content and installed status. Download progress is displayed in the app; interrupted or invalid downloads do not become installed packs. Installed content is available offline.
+
+The native walkthrough demonstrates ordering, receiving, installing, editing, duplicates and history in a temporary workspace. Animated edge effects and a moving pointer guide the demonstration. Close it to restore your original project and view.
 
 | Content | Distribution |
 |---|---|
@@ -31,7 +33,7 @@ Open **Menu → Packs** inside the application to download the combined language
 | User guide and walkthrough | Download once, use offline |
 | Future larger illustrations/media | Data packs as the corresponding viewers are ported |
 
-[Published content catalog and pack assets](https://github.com/elma-iot/ELMA-IoT-MIE-Android/releases/tag/android-content-v1)
+[Published content catalog and pack assets](https://github.com/elma-iot/ELMA-IoT-MIE-Android/releases/tag/android-content-v2)
 
 Catalogs are signed and downloads checked against SHA-256. Android content packs contain data/media only; executable functionality is delivered with the application. The application does not need downloaded content to add or move equipment offline.
 
