@@ -1,0 +1,7 @@
+.local/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.dpapi
+*.miepack
