@@ -6,7 +6,7 @@
 
 MIE is being adapted from Windows to Android for subsea wellhead hardware and consumables tracking. The Android interface is designed for portrait phones, rotating screens, foldables and tablets, with offline project work at its center.
 
-**Status: private review, version 0.2.0.** This is not yet the full Windows application or a Google Play release. Android APKs and source are held in the organization's private repository; this public repository distributes information and optional data packs.
+**Status: private review, version 0.2.1.** This is not yet the full Windows application or a Google Play release. Android APKs and source are held in the organization's private repository; this public repository distributes information and optional data packs.
 
 ## Equipment through its lifecycle
 
